@@ -421,3 +421,200 @@ Key insights generated from the analysis include:
 - Forecast horizon selection has a direct impact on prediction difficulty and model performance, demonstrating the importance of evaluation strategy in time-series forecasting.
 
 ---
+
+# 🚀 Installation
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/Maritime-Vessel-Trajectory-Prediction-ML.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Maritime-Vessel-Trajectory-Prediction-ML
+```
+
+---
+
+## Create a Virtual Environment
+
+### Windows
+
+```bash
+python -m venv .venv
+```
+
+Activate:
+
+```bash
+.venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv .venv
+
+source .venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ How to Run
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```
+notebook/
+Maritime_Vessel_Trajectory_Prediction.ipynb
+```
+
+Run all notebook cells sequentially.
+
+The notebook automatically performs:
+
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis
+- Geospatial Analysis
+- Time-Series Analysis
+- Maritime Anomaly Detection
+- Machine Learning
+- Forecast Horizon Evaluation
+
+Generated outputs are saved inside:
+
+```
+outputs/
+```
+
+---
+
+# 📂 Generated Outputs
+
+The project automatically creates:
+
+```
+outputs/
+
+├── figures/
+│
+├── reports/
+│
+├── models/
+│
+└── maps/
+```
+
+Including:
+
+- Model Evaluation Reports
+- Feature Importance
+- Forecast Horizon Comparison
+- Saved Random Forest Model
+- Geospatial Outputs
+
+---
+
+# 📸 Project Screenshots
+
+The following project outputs are recommended for inclusion inside the **docs/images/** directory.
+
+| Screenshot | Description |
+|------------|-------------|
+| Architecture Diagram | Overall project workflow |
+| EDA Dashboard | Exploratory Data Analysis |
+| Feature Importance | Random Forest Feature Importance |
+| Forecast Horizon Comparison | 1-Step vs 5-Step Forecast |
+| Geospatial Map | Vessel Movement Visualization |
+
+> After uploading the screenshots, update the README with embedded images using Markdown.
+
+Example:
+
+```markdown
+![Feature Importance](docs/images/feature_importance.png)
+```
+
+---
+
+# 🚀 Future Improvements
+
+Potential enhancements include:
+
+- Implement XGBoost and LightGBM for performance comparison.
+- Evaluate sequence-based models such as LSTM or Transformer architectures.
+- Deploy the prediction model as a web application using Streamlit or FastAPI.
+- Integrate live AIS data streams for real-time trajectory prediction.
+- Build an interactive maritime dashboard for operational monitoring.
+- Optimize feature engineering with rolling statistics and lag-based features.
+- Extend the forecasting horizon for long-range vessel movement prediction.
+
+---
+
+# 📚 Learning Outcomes
+
+This project strengthened practical experience in:
+
+- Large-scale data preprocessing
+- Data quality assessment
+- Feature engineering
+- Geospatial analytics
+- Time-series analysis
+- Machine learning for regression
+- Model evaluation
+- Technical documentation
+- GitHub project organization
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and constructive feedback are welcome.
+
+If you find this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+See the **LICENSE** file for additional details.
+
+---
+
+# 👨‍💻 Author
+
+**Arpit Mukherjee**
+
+AI-Assisted Data Analyst | Python | SQL | Power BI | Machine Learning | Geospatial Analytics
+
+If you'd like to connect or discuss this project:
+
+- LinkedIn: *(Add your LinkedIn URL)*
+- GitHub: *(Add your GitHub Profile URL)*
+
+---
+
+# ⭐ Acknowledgement
+
+This project was developed as a portfolio project to demonstrate practical applications of machine learning, geospatial analytics, and time-series analysis in the maritime domain.
+
+The implementation focuses on building an end-to-end predictive analytics pipeline using publicly available AIS vessel movement data for educational and portfolio purposes.
