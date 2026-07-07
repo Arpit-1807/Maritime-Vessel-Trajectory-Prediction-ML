@@ -427,7 +427,7 @@ Key insights generated from the analysis include:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/Maritime-Vessel-Trajectory-Prediction-ML.git
+git clone https://github.com/Arpit-1807/Maritime-Vessel-Trajectory-Prediction-ML.git
 ```
 
 Navigate to the project directory:
