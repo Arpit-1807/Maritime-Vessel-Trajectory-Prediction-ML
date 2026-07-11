@@ -1,0 +1,8 @@
+Metric,Value
+Rows Before Cleaning,1098966
+Rows After Cleaning,1098888
+Rows Removed,78
+Duplicate Rows Removed,29
+Duplicate MMSI + Timestamp Removed,49
+Invalid Latitude Records,0
+Invalid Longitude Records,0
