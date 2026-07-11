@@ -532,28 +532,6 @@ Including:
 
 ---
 
-# 📸 Project Screenshots
-
-The following project outputs are recommended for inclusion inside the **docs/images/** directory.
-
-| Screenshot | Description |
-|------------|-------------|
-| Architecture Diagram | Overall project workflow |
-| EDA Dashboard | Exploratory Data Analysis |
-| Feature Importance | Random Forest Feature Importance |
-| Forecast Horizon Comparison | 1-Step vs 5-Step Forecast |
-| Geospatial Map | Vessel Movement Visualization |
-
-> After uploading the screenshots, update the README with embedded images using Markdown.
-
-Example:
-
-```markdown
-![Feature Importance](docs/images/feature_importance.png)
-```
-
----
-
 # 🚀 Future Improvements
 
 Potential enhancements include:
